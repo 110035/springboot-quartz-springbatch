@@ -1,4 +1,4 @@
-package com.lzj.demo;
+package com.xiaomi.sunjianfei.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

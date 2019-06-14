@@ -1,14 +1,17 @@
-package com.lzj.springbatch.writer;
+package com.xiaomi.sunjianfei.springbatch.writer;
 import java.util.List;
-import org.springframework.batch.item.ItemWriter;
-import com.lzj.springbatch.model.User;
 
+import com.xiaomi.sunjianfei.springbatch.model.User;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.batch.item.ItemWriter;
+
+@Slf4j
 public class MyWriter implements ItemWriter<User> {
 
 	@Override
 	public void write(List<? extends User> items) throws Exception {
 		for(User user : items){
-			System.out.println(user);
+			log.info("user={}",user);
 		}
 	}
 

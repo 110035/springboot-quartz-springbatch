@@ -1,6 +1,6 @@
-package com.lzj.springbatch.processor;
+package com.xiaomi.sunjianfei.springbatch.processor;
+import com.xiaomi.sunjianfei.springbatch.model.User;
 import org.springframework.batch.item.ItemProcessor;
-import com.lzj.springbatch.model.User;
 
 public class MyProcessor implements ItemProcessor<User, User> {
 

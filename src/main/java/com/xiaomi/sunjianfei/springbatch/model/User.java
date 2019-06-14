@@ -1,4 +1,4 @@
-package com.lzj.springbatch.model;
+package com.xiaomi.sunjianfei.springbatch.model;
 
 public class User {
 	private String id;
